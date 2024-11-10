@@ -1,0 +1,23 @@
+form input{
+    height: auto;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(107, 205, 218);  /* Set background color to black */
+  }
+.color{
+    background-color: rgb(107, 205, 218); 
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+form hr{
+    border: 2px solid rgb(34, 78, 83);
+    border-radius: 5px;
+}
+.inline {
+    display: inline;
+    color: red;
+}
