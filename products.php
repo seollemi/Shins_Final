@@ -147,7 +147,8 @@ if(isset($_POST['add_to_cart_fp'])){
 
 <div class="container py-3">
             <!-- Rice Meals Section -->
-        <h1 class="text-center" id="Rice">Rice Meals</h1>
+        <h1 class="card-title tle" id="Rice" >Rice Meals</h1>
+
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
             <?php 
         $query = "SELECT * FROM rice";
@@ -221,7 +222,7 @@ if(isset($_POST['add_to_cart_fp'])){
 
 
     <!-- Frappe Section -->
-    <h1 class="text-center" id="Frappe">Frappe</h1>
+    <h1 class="card-title tle" id="Frappe">Frappe</h1>
 
     <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
         <?php 
@@ -320,7 +321,7 @@ if(isset($_POST['add_to_cart_fp'])){
         ?>
     </div>
 
-    <h1 class="text-center" id="Coffee">Coffee</h1>
+    <h1 class="card-title tle" id="Coffee">Coffee</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
             <?php 
@@ -419,7 +420,7 @@ if(isset($_POST['add_to_cart_fp'])){
         </div>
 
 
-        <h1 class="text-center" id="Snacks">Snacks</h1>
+        <h1 class="card-title tle" id="Snacks">Snacks</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
             <?php 

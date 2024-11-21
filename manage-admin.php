@@ -9,7 +9,7 @@
     <style>
         body {
             background: rgb(250,250,250);
-            background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(157,157,255,1) 38%, rgba(0,212,255,1) 100%);
+            background-color: #43766C;
             padding-top: 20px; /* Adjust as per your layout */
         }
         .main-content {
